@@ -42,7 +42,7 @@ export const Score = styled.div`
   flex-direction: column;
   border-radius: 50%;
   color: #C3BDFF;
-  background-color: #452DDD;
+  background: linear-gradient(0deg, #332DE9 0%, #6642FE 100%);
 
   h2{
     font-size: 82px;
