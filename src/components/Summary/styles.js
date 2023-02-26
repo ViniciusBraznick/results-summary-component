@@ -29,6 +29,8 @@ export const Container = styled.div`
   ul{
     width: 100%;
     overflow: hidden;
+    opacity: 0;
+    animation: ${slide} 500ms 500ms forwards;
   }
 
   button{
@@ -51,10 +53,7 @@ export const SummaryIem = styled.li`
   align-items: center;
   padding: 16px;
   border-radius: 12px;
-  transform: translateX(-50px);
-  opacity: 0;
   background-color: ${({ background }) => background };
-  animation: ${slide} 500ms 500ms forwards;
 
   & + & {
     margin-top: 18px;
